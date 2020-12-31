@@ -1,0 +1,10 @@
+sentry:
+  dsn: "<<dsn>>"
+  max-breadcrumbs: 150
+  logging:
+    minimum-event-level: warn
+    minimum-breadcrumb-level: info
+  enable-tracing: true
+  traces-sample-rate: 1.0
+  in-app-includes: "com.example.sentryspringdemo"
+  debug: true
